@@ -1,9 +1,11 @@
 # <a href='http://www.jrdevjobs.com' target='_blank'>Jr.DevJobs</a> Challenge: English Numbers
 
 ## Introduction
-In this challenge you will create a webpage that will take a number and return the English translation.
+In this challenge you will create a tool that will take a number and return the English translation.
 
 You are free to do this in any language or framework, however the sample is written in JavaScript.
+
+For bonus points, turn this into a webpage that allows users to submit input and have the translation returned to the screen.
 
 ## Getting Started
 To begin, Fork this repository to your GitHub account by clicking the Fork icon in the upper-right section of this page.
@@ -28,7 +30,8 @@ As a user, I want to translate numbers into their English word form.
 * **6,500,016**: Six million five hundred thousand sixteen
 
 
-## Tests
+## Tests (for JavaScript)
 We've included specs to test your code using Mochai and Chai.
 
+* The spec-runner expects your JavaScript code to be in js/scripts.js - if you change this make sure to update spec/spec-runner.html line 9 with the path to your code
 * To run the tests, open `spec/spec-runner.html` in your browser
